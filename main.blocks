@@ -1,1 +1,7 @@
-<xml xmlns="https://developers.google.com/blockly/xml"/>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="F2@IRe_$SAZ)yJN^!5|j">Teplota</variable><variable id="iAzInwlPJ?e:TqU3ZpOz"> hodnota</variable><variable id="$i#~Y^($CH~Jh,W#s|lZ">list</variable></variables><block type="controls_if" id="0PRyPSmWH)*|H#Vw8|^|" disabled="true" x="0" y="0"><value name="IF0"><shadow type="logic_boolean" id="R[w;)V7QvbyGcdRG-ss*" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="Y[$i5aUIvPgnRjzxAeG*" disabled="true"><field name="OP">LT</field><value name="A"><shadow type="math_number" id="Z/kfIh|lk+#giF@8iUmK" disabled="true"><field name="NUM">0</field></shadow></value><value name="B"><shadow type="math_number" id="1L-)a4@zt[l{.Vk:{(g*" disabled="true"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="_I~4/i0GwZpwM01jxx;d" disabled="true"><field name="LEDS">`
+        . . . . . 
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        . # . . .
+        `</field></block></statement></block><block type="logic_compare" id="eZeLE)S$cy2z~UfnVMQz" disabled="true" x="407" y="67"><field name="OP">GT</field><value name="A"><shadow type="math_number" id="XkouTT%?8m2!k)m^#iG(" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="EN*]U=c)}ef0mNJCW^c-" disabled="true"><field name="VAR" id="F2@IRe_$SAZ)yJN^!5|j">Teplota</field></block></value><value name="B"><shadow type="math_number" id="{d?_y/M6P`q*8-@Jgm;H" disabled="true"><field name="NUM">0</field></shadow></value></block></xml>
