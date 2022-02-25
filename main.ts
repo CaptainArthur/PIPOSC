@@ -1,12 +1,24 @@
 input.onButtonPressed(Button.A, function () {
-    let Teplota = 0
-    if (Teplota > 0 < 0) {
+    if (true) {
+        radio.sendValue("name", randint(0, 10))
+    } else {
         basic.showLeds(`
-            . . . . .
-            . . . . #
-            . . . # .
-            # . # . .
-            . # . . .
+            # . . . #
+            . # . # .
+            . . # . .
+            . # . # .
+            # . . . #
             `)
     }
+})
+radio.onReceivedValue(function (name, value) {
+    basic.showLeds(`
+        . . . . .
+        . . . . #
+        . . . # .
+        # . # . .
+        . # . . .
+        `)
+    basic.pause(1000)
+    basic.showNumber(randint(0, 10))
 })
