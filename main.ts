@@ -6,4 +6,5 @@ input.onButtonPressed(Button.A, function () {
 radio.onReceivedValue(function (name, value) {
     basic.showNumber(randint(0, 10))
     basic.pause(1000)
+    basic.clearScreen()
 })
