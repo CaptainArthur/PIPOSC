@@ -1,10 +1,10 @@
+let teplota = 0
 input.onButtonPressed(Button.A, function () {
+    teplota = input.temperature()
     if (true) {
-        radio.sendValue("name", randint(0, 10))
+        radio.sendValue("name", teplota)
     }
 })
 radio.onReceivedValue(function (name, value) {
-    basic.showNumber(randint(0, 10))
-    basic.pause(1000)
-    basic.clearScreen()
+    basic.showNumber(teplota)
 })
